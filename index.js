@@ -13,6 +13,11 @@ app.get("/calcas", function(req,res){
     res.send("<h1> setor de calsas")
 })
 
+app.get('/sapatos',function(req,res){
+    res.send("<h1> setor de sapatos </h1>")
+})
+
+
 app.get("/cadastro", function(req,res){
     var cpf = req.query["cpf"]
     
